@@ -12,7 +12,8 @@ class Database:
         return dict(
             _id=int(id),                                   
             file_id=None,
-            caption=None
+            caption=None,
+            dump_channel=None  # Nouveau champ pour le canal dump
         )
 
     async def add_user(self, b, m):
@@ -51,9 +52,14 @@ class Database:
         user = await self.col.find_one({'_id': int(id)})
         return user.get('caption', None)
 
+    # Nouvelle méthode pour le canal dump
+    async def set_dump_channel(self, id, channel_id):
+        await self.col.update_one({'_id': int(id)}, {'$set': {'dump_channel': channel_id}})
+
+    # Nouvelle méthode pour le canal dump
+    async def get_dump_channel(self, id):
+        user = await self.col.find_one({'_id': int(id)})
+        return user.get('dump_channel', None)
+
 
 db = Database(Config.DB_URL, Config.DB_NAME)
-
-
-
-
