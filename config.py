@@ -14,8 +14,7 @@ class Config(object):
  
     # Autres configurations
     BOT_UPTIME = time.time()
-    START_PIC  = os.environ.get
-      ("START_PIC", "https://iili.io/Fc0oBrF.md.jpg")
+    START_PIC = os.environ.get("START_PIC", "https://iili.io/Fc0oBrF.md.jpg")  # Ligne corrigée
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7428552084').split()]
     FORCE_SUB = os.environ.get("FORCE_SUB", "otakukingcey1") 
     LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1002757788052")
@@ -30,9 +29,9 @@ class Txt(object):
     START_TXT = """<b>Salut {} 👋,</b>
 <b>Jᴇ sᴜɪs ʟᴇ ʀᴇɴᴀᴍᴇʀ ʙᴏᴛ 🦜 ᴄᴀᴘᴀʙʟᴇ ᴅ'ᴀʟʟᴇʀ à ᴜɴᴇ ᴠɪᴛᴇssᴇ ᴅᴇ 𝟷𝟹Mᴏ/s 🚀
 
-Lᴀ ғᴀçᴏɴ ᴅᴏɴᴛ ᴊᴇ ᴍᴇ sᴀᴄʀɪғɪᴇ ᴘᴏᴜʀ ᴍᴏɴ éǫᴜɪᴘᴀɢᴇ ⚓, Jᴇ ғᴇʀᴀɪ ᴅᴇ ᴍêᴍᴇ ᴘᴏᴜʀ ᴛᴇs ғɪᴄʜɪᴇʀs 📂. Sᴏɪᴛ ᴇɴ sûʀ. Mêᴍᴇ sɪ ᴍᴏɴ ᴇsᴛᴏᴍᴀᴄ ғᴀɪᴛ ᴅᴇs ʙʀᴜɪᴛs ᴅᴇ ᴍᴏᴛᴇᴜʀ, sᴀᴄʜᴇᴢ Qᴜᴇ, 
+Lᴀ ғᴀçᴏɴ ᴅᴏɴᴛ ᴊᴇ ᴍᴇ sᴀᴄʀɪғɪᴇ ᴘᴏᴜʀ ᴍᴏɴ éǫᴜɪᴘᴀɢᴇ ⚓, Jᴇ ғᴇʀᴀɪ ᴅᴇ ᴍêᴍᴇ ᴘᴏᴜʀ ᴛᴇs ғɪᴄʜɪᴇʀs 📂. Sᴏɪᴛ ᴇɴ sûʀ. Mêᴍᴇ sɪ ᴍᴏɴ ᴇsᴛᴏᴍᴀᴄ ғᴀɪᴛ ᴅᴇs ʙʀᴜɪᴛs ᴅᴇ �ᴍᴏᴛᴇᴜʀ, sᴀᴄʜᴇᴢ Qᴜᴇ, 
 
-Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ ᴠᴏs ғɪᴄʜɪᴇʀs, ᴇᴛ Lᴇ ᴘʀᴏᴄʜᴀɪɴ ʀᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs 🏆, ᴄᴇ sᴇʀᴀ Mᴏɪ 🍖.</b>
+Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ �ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ ᴠᴏs ғɪᴄʜɪᴇʀs, ᴇᴛ Lᴇ ᴘʀᴏᴄʜᴀɪɴ ʀᴏɪ ᴅᴇs Pɪʀᴀᴛᴇs 🏆, ᴄᴇ sᴇʀᴀ Mᴏɪ 🍖.</b>
 
 
 <blockquote><b>Créé par :</b> <a href="https://t.me/BotZFlix">BotZFlix</a></blockquote> 💞"""
@@ -42,7 +41,7 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ �
 ║┣⪼📃Mᴏɴ Nᴏᴍ : {}
 ║┣⪼👼Cʀᴇᴀᴛᴇᴜʀ : <a href='t.me/ZFlixteamBot>—‌‌‌‌◡‌⃝ㅤ🇰ιηg¢єу</a>
 ║┣⪼🤖Mɪsᴇ à Jᴏᴜʀ : <a href='t.me/BotZFlix'>BᴏᴛZFʟɪx</a>
-║┣⪼📡 Héʙᴇʀɢᴇʀ Sᴜʀ: Sᴜᴘᴇʀ Fᴀsᴛ
+║┣⪼📡Héʙᴇʀɢᴇʀ Sᴜʀ: Sᴜᴘᴇʀ Fᴀsᴛ
 ║┣⪼🗣️Lᴀɴɢᴜᴀɢᴇ : <a href='python.org'>Pʏᴛʜᴏɴ𝟹</a>
 ║┣⪼📚 Lɪʙʀᴀɪʀɪᴇ : <a href='pyrogram.org'>Pʏʀᴏɢʀᴀᴍ</a>
 ║┣⪼🗒️Vᴇʀsɪᴏɴ : 𝟶.𝟷𝟾.𝟹
@@ -50,7 +49,6 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ �
 ╚══════════════════❍⊱❁۪۪<b>"""
 
     HELP_TXT = """
-
 ✏️ <b><u>Renommage de fichiers</u></b>
 <b>•»</b> Envoyez un fichier et spécifiez le nouveau nom
 <b>•»</b> Sélectionnez le format [document, video, audio]
@@ -63,7 +61,6 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅᴇ �
 <b>•»</b> /del_caption - Supprimer votre légende"""
 
     THUMB_TXT = """🌟 <b><u>Configuration de la miniature</u></b>
-  
 <b>•»</b> /start - Démarrez le bot et envoyez une photo pour définir la miniature
 <b>•»</b> /del_thumb - Supprimer votre miniature actuelle
 <b>•»</b> /view_thumb - Voir votre miniature actuelle"""
