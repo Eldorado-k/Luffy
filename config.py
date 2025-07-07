@@ -49,9 +49,10 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ �ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅ�
 ╚══════════════════❍⊱❁۪۪<b>"""
 
     HELP_TXT = """
-✏️ <b><u>Renommage de fichiers</u></b>
-<b>•»</b> Envoyez un fichier et spécifiez le nouveau nom
-<b>•»</b> Sélectionnez le format [document, video, audio]
+✏️ <u>Rᴇɴᴏᴍᴍᴀɢᴇ ᴅᴇ ғɪᴄʜɪᴇʀs</u>
+•»Eɴᴠᴏʏᴇᴢ ᴜɴ ғɪᴄʜɪᴇʀ ᴇᴛ sᴘéᴄɪғɪᴇᴢ ʟᴇ ɴᴏᴜᴠᴇᴀᴜ ɴᴏᴍ
+•» Séʟᴇᴄᴛɪᴏɴɴᴇᴢ ʟᴇ ғᴏʀᴍᴀᴛ [ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ]
+
 
 🔧 <b>Support :</b> <a href="https://t.me/BotZFlixSupport">Groupe d'aide</a>"""
 
@@ -59,6 +60,10 @@ Jᴇ ᴛʀᴏᴜᴠᴇʀᴀɪ ʟᴇ Oɴᴇ �ᴘɪᴇᴄᴇ 🏴‍☠️ ᴅ�
 <b>•»</b> /set_caption - Définir une légende personnalisée
 <b>•»</b> /see_caption - Voir votre légende actuelle
 <b>•»</b> /del_caption - Supprimer votre légende"""
+
+    DEV_TXT = """ɪᴄɪ ᴄ'ᴇsᴛ Kɪɴɢᴄᴇʏ 😌. ᴜɴ ᴘᴇᴛɪᴛ ᴅéᴠᴇʟᴏᴘᴘᴇᴜʀs ᴄᴏᴍᴍᴇɴçᴀɴᴛ à ᴀᴘᴘʀᴇɴᴅʀᴇ ʟᴀ ᴘʀᴏɢʀᴀᴍᴍᴀᴛɪᴏɴ ᴇɴ 🐍Pʏᴛʜᴏɴ ᴇᴛ HTML.
+    
+    ᴊᴜsᴛᴇ ᴘᴏᴜʀ ᴅɪʀᴇ ǫᴜᴇ, sɪ ᴠᴏᴜs ᴠᴏᴜʟɪᴇᴢ ʟᴇ ᴄᴏᴅᴇ sᴏᴜʀᴄᴇ ᴅᴜ ʙᴏᴛ, ɪʟ ᴠᴀ ғᴀʟʟᴏɪʀ ᴘᴀʏé. ʟᴇ ᴄᴏᴅᴇ sᴏᴜʀᴄᴇ ᴇsᴛ ᴘᴀʏᴀɴᴛ."""
 
     THUMB_TXT = """🌟 <b><u>Configuration de la miniature</u></b>
 <b>•»</b> /start - Démarrez le bot et envoyez une photo pour définir la miniature
